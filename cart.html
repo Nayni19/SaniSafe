@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon (1).ico">
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Fontawesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>SaniSafe</title>
+    <style>
+        @media screen and (max-width: 860px) {
+
+            .shopping-cart .product-item .product-thumb,
+            .wishlist-table .product-item .product-thumb,
+            .order-table .product-item .product-thumb {
+                display: none
+            }
+        }
+
+        .shopping-cart .product-item .product-info span,
+        .wishlist-table .product-item .product-info span,
+        .order-table .product-item .product-info span {
+            display: block;
+            font-size: 13px
+        }
+
+        .shopping-cart .product-item .product-info span>em,
+        .wishlist-table .product-item .product-info span>em,
+        .order-table .product-item .product-info span>em {
+            font-weight: 500;
+            font-style: normal
+        }
+
+        .shopping-cart .product-item .product-title,
+        .wishlist-table .product-item .product-title,
+        .order-table .product-item .product-title {
+            margin-bottom: 6px;
+            padding-top: 5px;
+            font-size: 16px;
+            font-weight: 500
+        }
+
+        .shopping-cart .product-item .product-title>a,
+        .wishlist-table .product-item .product-title>a,
+        .order-table .product-item .product-title>a {
+            transition: color .3s;
+            color: #374250;
+            line-height: 1.5;
+            text-decoration: none
+        }
+
+        .shopping-cart .product-item .product-title>a:hover,
+        .wishlist-table .product-item .product-title>a:hover,
+        .order-table .product-item .product-title>a:hover {
+            color: #0da9ef
+        }
+
+        .shopping-cart .product-item .product-title small,
+        .wishlist-table .product-item .product-title small,
+        .order-table .product-item .product-title small {
+            display: inline;
+            margin-left: 6px;
+            font-weight: 500
+        }
+
+        .wishlist-table .product-item .product-thumb {
+            display: table-cell !important
+        }
+
+        @media screen and (max-width: 576px) {
+            .wishlist-table .product-item .product-thumb {
+                display: none !important
+            }
+        }
+
+        .shopping-cart-footer {
+            display: table;
+            width: 100%;
+            padding: 10px 0;
+            border-top: 1px solid #e1e7ec;
+        }
+
+        .shopping-cart-footer>.column {
+            display: table-cell;
+            padding: 5px 0;
+            vertical-align: middle
+        }
+
+        .shopping-cart-footer>.column:last-child {
+            text-align: right
+        }
+
+        .shopping-cart-footer>.column:last-child .btn {
+            margin-right: 0;
+            margin-left: 15px
+        }
+
+        @media (max-width: 768px) {
+            .shopping-cart-footer>.column {
+                display: block;
+                width: 100%
+            }
+
+            .shopping-cart-footer>.column:last-child {
+                text-align: center
+            }
+
+            .shopping-cart-footer>.column .btn {
+                width: 100%;
+                margin: 12px 0 !important
+            }
+        }
+
+        .coupon-form .form-control {
+            display: inline-block;
+            width: 100%;
+            max-width: 235px;
+            margin-right: 12px;
+        }
+
+        .form-control-sm:not(textarea) {
+            height: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html" style="color: #99154E;">SaniSafe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #99154E;" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #99154E;" href="./products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " style="color: #99154E;" href="./faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #99154E;" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item cart">
+                        <a class="link-tab active" href="cart.html"><i class='bx bx-shopping-bag shop-bag'></i><span
+                                class="bag-num">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <div class="cart-header mt-5">
+            <div class="container padding-bottom-3x mb-1">
+                <!-- Alert-->
+                <div class="alert alert-success alert-dismissible fade show text-center" style="margin-bottom: 30px;">
+                    <span class="alert-close" data-dismiss="alert"></span>With this purchase you will earn
+                    <strong>100</strong> Reward Points.
+                </div>
+                <!-- Shopping Cart-->
+
+                <div class="products-container">
+                    <div class="products-header">
+                        <h5 class="products-title">Product</h5>
+                        <h5 class="price">Price</h5>
+                        <h5 class="quantity">Quantity</h5>
+                        <h5 class="total">Total</h5>
+                    </div>
+                    <div class="cart-products">
+                    </div>
+                </div>
+
+
+                <div class="shopping-cart-footer">
+                    <div class="column">
+                        <form class="coupon-form" method="post">
+                            <input class="form-control form-control-sm" type="text" placeholder="Coupon code"
+                                required="">
+                            <button class="btn btn-outline-danger btn-sm" type="submit">Apply Coupon</button>
+                        </form>
+                    </div>
+                    <div class="column text-lg subtotal">Subtotal: <span class="text-medium Subtotal"></span></div>
+                </div>
+                <div class="shopping-cart-footer">
+                    <div class="column"><a class="btn btn-outline-secondary" href="products.html"><i
+                                class="icon-arrow-left"></i>Back to Shopping</a></div>
+                    <div class="column">
+                        <a class="btn btn-danger clearCart" href="#" data-toast="" data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-circle-check"
+                            data-toast-title="Your cart" data-toast-message="is cleared successfully!">Clear Cart</a>
+                            <a class="btn btn-success" href="#">Checkout</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section id="lab_social_icon_footer">
+        <div class="container">
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb"
+                        class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/bootsnipp"><i id="social-tw"
+                        class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
+                        class="fa fa-google-plus-square fa-3x social"></i></a>
+                <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
