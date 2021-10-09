@@ -331,7 +331,7 @@ header {
     margin: 0 auto;
 }
 .products-title{
-    width: 60%;
+    width: 50%;
 }
 .price{
     width: 15%;
@@ -339,10 +339,9 @@ header {
     align-items: center;
 }
 .quantity{
-    width: 15%;
+    width: 25%;
     display:flex;
     align-items: center;
-    
 }
 .total{
     width: 10%;
