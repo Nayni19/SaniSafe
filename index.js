@@ -175,14 +175,16 @@ function cartNumbers(product) {
   productNumbers = parseInt(productNumbers);
   if (productNumbers) {
     localStorage.setItem('cartNumbers', productNumbers + 1);
-    document.querySelector('.cart span').textContent = productNumbers + 1;
+    document.querySelector('.cart .bag-num').textContent = productNumbers + 1;
   }
   else {
     localStorage.setItem('cartNumbers', 1);
-    document.querySelector('.cart span').textContent = 1;
+    document.querySelector('.cart .bag-num').textContent = 1;
   }
+  console.log(cartNumbers)
   setItems(product);
 }
+
 
 function setItems(product) {
   let cartItems = localStorage.getItem('productsInCart');
