@@ -5,7 +5,7 @@ A web application on sanitary napkins using DOM is a digital platform designed t
 
 Menstrual hygiene is a critical aspect of women's health, and access to accurate information and quality sanitary products is essential. The web application aims to create awareness, break taboos, and promote proper menstrual hygiene practices among women and girls.
 
-Home Page - 
+## Home Page
 
 Our home page features an empowering and compelling tagline that emphasizes the significance of menstrual hygiene and the use of sanitary napkins for a worry-free period experience. It encapsulates our commitment to promoting women's health and well-being.
 
@@ -26,7 +26,7 @@ Our home page highlights our range of high-quality sanitary napkins. Each produc
 <img width="946" alt="Screenshot 2023-07-22 171209" src="https://github.com/Nayni19/SaniSafe/assets/83155646/a6a8a6eb-ba94-40b8-8e3b-1ee751fe8db4">
 
 
-Products Page - 
+## Products Page
 
 Our Products Page showcases an extensive catalog of sanitary napkins, each tailored to meet different needs and preferences. Whether you prefer ultra-thin pads for discreetness or extra-absorbent pads for heavy flow days, we have a variety of options to cater to your unique requirements.
 For each sanitary napkin product, we provide detailed descriptions, highlighting its key features, absorbency level, length, and additional benefits. You'll find information on how our pads are designed with breathable materials to ensure a comfortable and irritation-free experience.
@@ -39,7 +39,7 @@ For each sanitary napkin product, we provide detailed descriptions, highlighting
 
 <img width="947" alt="image" src="https://github.com/Nayni19/SaniSafe/assets/83155646/2a54c240-8b48-46da-b9dc-23a02c627b5d">
 
-FAQ Page - 
+## FAQ Page
 
 The web application includes a section with frequently asked questions related to menstrual hygiene and sanitary napkins. Users can access quick answers to common queries they might have.
 Our FAQ Page contains a curated list of frequently asked questions about our sanitary napkins. These questions cover a range of topics, from product usage and benefits to our eco-friendly initiatives and customer support.
@@ -52,7 +52,7 @@ We understand the importance of product safety and hygiene. In our FAQ section, 
 
 <img width="943" alt="Screenshot 2023-07-22 171611" src="https://github.com/Nayni19/SaniSafe/assets/83155646/a4c7dbb7-ac0c-4c60-b84d-c0b78e1fbd65">
 
-Contact Page - 
+## Contact Page
 
 Welcome to our Contact Page! We are delighted to offer you a direct line of communication with our friendly and knowledgeable customer support team. At SaniSafe, we prioritize your satisfaction and are committed to addressing your inquiries, feedback, and any assistance you may need.
 
@@ -60,7 +60,7 @@ Welcome to our Contact Page! We are delighted to offer you a direct line of comm
 
 <img width="946" alt="Screenshot 2023-07-22 171813" src="https://github.com/Nayni19/SaniSafe/assets/83155646/4ba33aed-fda8-43ad-9663-b70fb5c6da88">
 
-Cart Page - 
+## Cart Page
 
 The Cart Page of our Sanitary Napkin Website, built using the Document Object Model (DOM), is a crucial part of the user journey. It allows customers to review and manage their selected products before proceeding to checkout. Using the power of the DOM, we ensure a dynamic and seamless cart experience for our valued users.
 
